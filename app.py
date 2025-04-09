@@ -3,7 +3,7 @@ import joblib
 import tldextract
 
 # Load model and vectorizer
-model = joblib.load("best_phishing_model")
+model = joblib.load("best_phishing_model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
 # App title and config
